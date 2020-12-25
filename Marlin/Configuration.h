@@ -136,7 +136,7 @@
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
-//#define MACHINE_UUID "00000000-0000-0000-0000-000000000000"
+#define MACHINE_UUID "5f2d757e-8a9f-44d4-93ce-9d0aa07401f9"
 
 // @section extruder
 
@@ -2602,8 +2602,8 @@
 // If the servo can't reach the requested position, increase it.
 #define SERVO_DELAY { 300 }
 
-// Only power servos during movement, otherwise leave off to prevent jitter
-//#define DEACTIVATE_SERVOS_AFTER_MOVE
+    // Only power servos during movement, otherwise leave off to prevent jitter
+    //#define DEACTIVATE_SERVOS_AFTER_MOVE
 
-// Edit servo angles with M281 and save to EEPROM with M500
-//#define EDITABLE_SERVO_ANGLES
+    // Edit servo angles with M281 and save to EEPROM with M500
+    //#define EDITABLE_SERVO_ANGLES
